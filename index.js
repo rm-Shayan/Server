@@ -7,6 +7,8 @@ dotenv.config({
 });
 connectionDb();
 
+app.listen ?? null;
+
 server.listen(process.env.PORT || 3400, () => {
   console.log(`server is running on  `);
 });
