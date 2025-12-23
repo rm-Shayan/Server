@@ -8,7 +8,7 @@ import AuthRoutes from "./Routes/User.route.js";
 import ChatRoomRoutes from "./Routes/ChatRooms.route.js";
 import MessageRoutes from "./Routes/Messages.route.js";
 
-const app = express();
+export  const app = express();
 export const server = createServer(app);
 
 

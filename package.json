@@ -9,10 +9,11 @@
   "author": "shayan",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --experimental-json-modules -r dotenv/config index.js "
-  },
+ "scripts": {
+  "dev": "nodemon -r dotenv/config index.js",
+  "start": "node -r dotenv/config index.js"
+}
+,
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
